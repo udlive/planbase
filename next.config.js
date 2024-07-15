@@ -6,14 +6,8 @@ const nextConfig = {
         return config;
     },
     images: {
-        remotePatterns: [
-          {
-            protocol: 'https',
-            hostname: 'crossriverstate.gov.ng',
-            port: '',
-            pathname: '',
-          },
-        ],}
+      domains: ["localhost", "crossriverstate.gov.ng"],
+    },
 }
 
 module.exports = nextConfig
